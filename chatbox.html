@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <meta http-equiv="Refresh" content="0; url='/show-page.html'" />
+    <!-- <style>
+      body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+      #form { background: rgba(0, 0, 0, 0.15); padding: 0.25rem; position: fixed; bottom: 0; left: 0; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); }
+      #input-chat { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+      #input-chat:focus { outline: none; }
+      #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages > li { padding: 0.5rem 1rem; }
+      #messages > li:nth-child(odd) { background: #efefef; }
+    </style> -->
+  </head>
+  <body>
+    <!-- <ul id="messages"></ul>
+    <form id="form" action="">
+      <input name="message" id="input-chat" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+    <script>
+      const socket = io("ws://localhost:4000")
+      const $ul = document.querySelector("#messages")
+
+      const form = document.querySelector("form")
+      form.addEventListener("submit", event => {
+        event.preventDefault()
+        const formData = new FormData(event.target)
+        socket.emit("chat message", formData.get("message"))
+        event.target.reset()
+      })
+      socket.on("chat message", message => {
+        console.log("message", message)
+        const $li = document.createElement("li")
+        $li.textContent = message
+        $ul.append($li)
+      })
+    </script> -->
+  </body>
+</html>
