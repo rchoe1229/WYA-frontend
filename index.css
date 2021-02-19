@@ -76,7 +76,6 @@ body {
   align-content: center;
   background: #fff;
   width: 375px;
-  height: 300px;
   box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
   padding: 30px;
 }
@@ -89,6 +88,7 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   align-content: center;
   /* margin: 10px; */
@@ -96,15 +96,36 @@ body {
 
 
 input {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.signup-button {
+  cursor: pointer;
+  background: hsl(170, 79%, 25%);
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  color:hsl(170, 79%, 25%);
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-image: linear-gradient(to bottom right, lime, yellow);
+}
+
+.signup-button:hover {
+  background-image: linear-gradient(to bottom right, yellow, lime);
 }
 
 #submit {
   cursor: pointer;
   background: hsl(170, 79%, 25%);
   width: 100%;
+  margin-bottom: 20px;
   padding: 10px;
-  border: 0;
+  border: 0px;
   color:hsl(170, 79%, 25%);
   font-family: Roboto, Helvetica, sans-serif;
   font-size: 14px;

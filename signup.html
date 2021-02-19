@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="login.js"></script>
+    <script defer src="signup.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>WYA Login</title>
   </head>
@@ -12,14 +12,17 @@
     <div class="login-container">
     <h1 class="title">WhereYouAt</h1>
       <div class="login-section">
-        <h2 class="login-title">Login To Your Account</h2>
+        <h2 class="login-title">Sign Up for an Account!</h2>
         <form class="login-form" autocomplete="off">
           <label for="name">Username</label>
           <input placeholder="Username" name="name" type="text" id="username"></input>
+          <label for="age">Age</label>
+          <input placeholder="Age" name="age" type="number" id="age"></input>
+          <label for="email">Email</label>
+          <input placeholder="Email" name="email" type="text" id="email"></input>
           <label for="password">Password</label>
           <input placeholder="Password" name="password" type="password" id="password"></input>
-          <button id="submit">Login</button>
-          <a href="signup.html">Register as User!</a>
+          <input class="signup-button" type="submit" value="Sign Up!">
           <p class="message"></p>
         </form>
       </div>
